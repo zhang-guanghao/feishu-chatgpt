@@ -21,6 +21,7 @@ var (
 )
 
 func main() {
+	log.Print("http server is startint\n")
 	initialization.InitRoleList()
 	pflag.Parse()
 	config := initialization.LoadConfig(*cfg)
